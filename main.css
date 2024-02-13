@@ -1,0 +1,329 @@
+body {
+    
+    margin: 0;
+    height: 1080px;
+    width: 100%;
+    background-image: url('slider-1920x715.jpg');
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#logo img{
+  height: 20%;
+  width: 20%;
+  padding: 0;
+  margin-left: 38%;
+
+}
+#top{
+   
+    width: 100%;
+    height: 70%;
+    
+    
+    
+}
+#top  > h1 {
+    padding-top: 3%;
+    font-size: 50px;
+    margin-left: 13%;
+    width: fit-content;
+    margin-bottom: 3%;
+    font-family: Sixtyfour;
+    transform: scale(1,1.5);
+}
+#top > p{
+    width: 25%;
+    color: rgba(248, 248, 248, 0.644);
+    margin-left: 13%;
+    
+}
+
+#mainicon{
+    width: 20%;
+    height: 40%;
+    float:right;
+    margin-right: 25%;
+    margin-top: -5%;
+}
+#navbar{
+  
+    border-top: 2px solid #c5b7b59a;
+    border-bottom: 2px solid #c5b7b59a;
+    width: 100%;
+    height: 8%;
+    margin-top: 2%;
+}
+#navbar>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    position: relative;
+    margin-left: -5%;
+    padding: 1.5%;
+}
+#navbar >ul>li{
+    color: white; 
+}
+#navbar >ul >li >a {
+    
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+#brands{
+    width: 100%;
+    
+}
+ #brands > img{
+    margin-left: 33%;
+    margin-top: -10%;
+    padding-bottom: 10px;
+ }
+
+#preshow{
+    width: 100%;
+    
+    height: 50%;
+    margin-top: -3%;
+    
+    
+}
+#preshow> h1 {
+    padding-top: 3%;
+    font-size: 50px;
+    margin-left: 13%;
+   width: fit-content;
+    
+    font-family: Protest Strike;
+    
+}
+.column {
+    display: flex;
+    float: left;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 11%;
+    height: 30em;
+    background: linear-gradient(277deg, rgba(7, 66, 105, 0.925) 0%, rgba(0, 0, 0, 0) 100%);
+    margin-bottom: 10%;
+    border-radius: 0 8px;
+    transition: all .3s ease;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    border-radius: 14px;
+    position: relative;
+    z-index: 1;
+  }
+  
+ 
+  .row:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #name{
+    
+    font-size: x-large;
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: Work Sans;
+    width: fit-content;
+
+  }
+
+.form-select{
+    background-color: transparent;
+    border-color: #838383;
+    color: #838383;
+    border-radius: 0 10px;
+    font-size: 10px;
+    
+    width: 55%;
+    height: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    
+    width: 20rem;
+    padding: 1rem 4rem 1rem 1rem;
+    background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
+      linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
+    color: rgb(0, 0, 0);
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+    &::-ms-expand {
+      display: none;
+    }
+    
+    &:focus {
+      outline: none;
+    }
+   
+    option {
+      color: inherit;
+      background-color: var(--option-bg);
+    }
+  }
+  :root {
+    --arrow-bg: rgba(255, 255, 255, 0.3);
+    --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
+    --option-bg: rgb(5, 5, 5);
+    --select-bg: rgba(255, 255, 255, 0.2);
+  }
